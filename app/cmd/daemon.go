@@ -91,7 +91,7 @@ func init() {
 	//daemonCmd.Flags().StringVarP(&cmdropstennap, "ropsten-network-access-point", "r", "", "ropsten network access point")
 	//daemonCmd.Flags().StringVarP(&cmdbastokenaddr, "bas-token-address", "a", "", "bas token address")
 	//daemonCmd.Flags().StringVarP(&cmdbasmgraddr, "bas-mgr-address", "m", "", "bas manager address")
-	//daemonCmd.Flags().StringVarP(&cmdconfigfilename, "config-file-name", "c", "", "configuration file name")
+	daemonCmd.Flags().StringVarP(&cmdconfigfilename, "config-file-name", "c", "", "configuration file name")
 	//daemonCmd.Flags().IntVarP(&cmddohserverport, "doh-listen-port", "p", 65566, "local doh server listen port")
 	//daemonCmd.Flags().StringVarP(&cmdcertfile, "cert-file", "f", "", "certificate file for tls")
 	//daemonCmd.Flags().StringVarP(&cmdkeyfile, "key-file", "k", "", "private key file for tls")
